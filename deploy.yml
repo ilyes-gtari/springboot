@@ -16,4 +16,4 @@ spec:
         - name: springboot
           image: 23153122e351/springboot
           ports:
-            - containerPort: 8080
+            - containerPort: 8082
