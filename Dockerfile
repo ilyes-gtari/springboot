@@ -8,7 +8,7 @@ WORKDIR /app
 COPY target/spring-boot-app-0.0.1-SNAPSHOT.jar /app/app.jar
 
 # Expose the port that the application will run on
-EXPOSE 8080
+EXPOSE 8082
 
 # Specify the command to run on container start
 CMD ["java", "-jar", "app.jar"]
